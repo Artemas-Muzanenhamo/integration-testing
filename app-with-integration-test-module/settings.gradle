@@ -1,2 +1,4 @@
 rootProject.name = 'app-with-integration-test-module'
+include 'integration-test'
+include 'user-service'
 

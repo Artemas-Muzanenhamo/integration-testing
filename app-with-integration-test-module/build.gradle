@@ -1,3 +1,8 @@
 group 'org.artemas'
 version '1.0-SNAPSHOT'
 
+project(':integration-test') {
+    dependencies {
+        project(':user-service')
+    }
+}
