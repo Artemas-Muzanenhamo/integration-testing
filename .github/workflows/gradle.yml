@@ -21,6 +21,8 @@ jobs:
       with:
         java-version: 1.11
     - name: Step into user-service
+      run: cd ./user-service
+    - name: Peek
       run: ls -lart
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
